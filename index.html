@@ -15,11 +15,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"
-      defer
-    ></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
@@ -93,25 +88,128 @@
     <section class="carrosel">
       <h2 class="carrosel__titulo">ÚLTIMOS LANÇAMENTOS</h2>
       <!-- Slider main container -->
-<div class="swiper">
-  <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
-    <!-- Slides -->
-    <div class="swiper-slide">Slide 1</div>
-    <div class="swiper-slide">Slide 2</div>
-    <div class="swiper-slide">Slide 3</div>
-    ...
-  </div>
-  <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
 
-  <!-- If we need navigation buttons -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img
+              src="./assets/img/livros/Acessibilidade.svg"
+              alt="Livro sobre acessibilidade da alura books"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/img/livros/Angular.svg"
+              alt="Livro sobre Angular da alura books"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/img/livros/ApacheKafka.svg"
+              alt="Livro sobre ApacheKafka da alura books"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/img/livros/Arquitetura.svg"
+              alt="Livro sobre Arquitetura da alura books"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/img/livros/Construct2.svg"
+              alt="Livro sobre Construct da alura books"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/img/livros/Gestão.svg"
+              alt="Livro sobre Gestãoda alura books"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/img/livros/Guia Front-end.svg"
+              alt="Livro sobre Guia Front-end alura books"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/img/livros/Javascript.svg"
+              alt="Livro sobre Javascript da alura books"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/img/livros/Liderança.svg"
+              alt="Livro sobre Liderançaa alura books"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/img/livros/MEAN.svg"
+              alt="Livro sobre MEAN da alura books"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/img/livros/MetricasAgeis.svg"
+              alt="Livro sobre MetricasAgeis da alura books"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/img/livros/Nodejs.svg"
+              alt="Livro sobre Node.js da alura books"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/img/livros/Portugol.svg"
+              alt="Livro sobre Portugolda alura books"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/img/livros/ReactNative.svg"
+              alt="Livro sobre ReactNativeda alura books"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/img/livros/Tuning.svg"
+              alt="Livro sobre Tuning da alura books"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./assets/img/livros/UX.svg"
+              alt="Livro sobre UX da alura books"
+            />
+          </div>
+        </div>
 
-  <!-- If we need scrollbar -->
-  <div class="swiper-scrollbar"></div>
-</div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+      </div>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        slidesPerView: 3,
+        spaceBetween: 10,
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+        },
+      });
+    </script>
   </body>
 </html>
