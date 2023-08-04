@@ -15,7 +15,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
-    <link href="https: //fonts.googleapis.com/css2?family= família= Josefin+Sans:wght@400;700 & display=swap" rel="stylesheet">
+    <link
+      href="https: //fonts.googleapis.com/css2?family= família= Josefin+Sans:wght@400;700 & display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
@@ -53,14 +56,40 @@
           alt="Logo da AluraBooks"
           class="container__imagem"
         />
-        <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
+        <h1 class="container__titulo">
+          <b class="container__titulo--negrito">Alura</b>Books
+        </h1>
       </div>
 
-<ul class="opcoes">
-  <li class="opcoes__item">Categorias</li>
-  <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
-  <li class="opcoes__item"><a href="#" class="opcoes__link">Minha estante</a></li>
-</ul>
+      <ul class="opcoes">
+        <input type="checkbox" id="opcoes__menu" class="opcoes__botao" />
+        <label for="opcoes__menu">
+          <li class="opcoes__item">Categorias</li>
+        </label>
+        <ul class="lista-menu">
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Programação</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Front-end</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Infraestrutura</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Business</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Design & UX</a>
+          </li>
+        </ul>
+        <li class="opcoes__item">
+          <a href="#" class="opcoes__link">Favoritos</a>
+        </li>
+        <li class="opcoes__item">
+          <a href="#" class="opcoes__link">Minha estante</a>
+        </li>
+      </ul>
 
       <div class="container">
         <a href="#"
@@ -205,7 +234,6 @@
         <!-- If we need navigation buttons -->
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
-
       </div>
     </section>
 
@@ -214,20 +242,35 @@
       <div class="card__descricao">
         <!-- 1º coluna -->
         <div class="descricao">
-          <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+          <h3 class="descricao__titulo">
+            Talvez você também se interesse por...
+          </h3>
           <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
-          <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+          <p class="descricao__texto">
+            Construindo uma aplicação integrada com a plataforma do Google.
+          </p>
         </div>
         <!-- 2º coluna -->
-        <img src="./assets/img/Angular2.svg" alt="Logo do Angular" class="descricao__imagem">
+        <img
+          src="./assets/img/Angular2.svg"
+          alt="Logo do Angular"
+          class="descricao__imagem"
+        />
       </div>
 
       <!-- 2º linha -->
       <div class="card__botoes">
         <!-- 1º coluna -->
         <ul class="botoes">
-          <li class="botoes__item"><img src="./assets/img/Favoritos.svg" alt="Favoritar livro"></li>
-          <li class="botoes__item"><img src="./assets/img/Compras.svg" alt="Adicionar no carrinho de compras"></li> 
+          <li class="botoes__item">
+            <img src="./assets/img/Favoritos.svg" alt="Favoritar livro" />
+          </li>
+          <li class="botoes__item">
+            <img
+              src="./assets/img/Compras.svg"
+              alt="Adicionar no carrinho de compras"
+            />
+          </li>
         </ul>
         <!-- 2º coluna -->
         <a href="#" class="botoes__ancora">Saiba mais</a>
@@ -345,7 +388,6 @@
         <!-- If we need navigation buttons -->
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
-
       </div>
     </section>
 
@@ -354,21 +396,39 @@
       <div class="card__descricao">
         <!-- 1º coluna -->
         <div class="descricao">
-          <img src="./assets/img/Estrelinhas.svg" alt="Avaliação 5 estrelas" class="descricao__imagem-estrelinhas">
+          <img
+            src="./assets/img/Estrelinhas.svg"
+            alt="Avaliação 5 estrelas"
+            class="descricao__imagem-estrelinhas"
+          />
           <h3 class="descricao__titulo">Autora do Mês</h3>
           <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
-          <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+          <p class="descricao__texto">
+            Analista de sistemas e escritora, Juliana é especialista em
+            Front-End.
+          </p>
         </div>
         <!-- 2º coluna -->
-        <img src="./assets/img/Perfil-escritora.svg" alt="Imagem da Juliana Agarikov" class="descricao__imagem">
+        <img
+          src="./assets/img/Perfil-escritora.svg"
+          alt="Imagem da Juliana Agarikov"
+          class="descricao__imagem"
+        />
       </div>
 
       <!-- 2º linha -->
       <div class="card__botoes">
         <!-- 1º coluna -->
         <ul class="botoes">
-          <li class="botoes__item"><img src="./assets/img/Favoritos.svg" alt="Favoritar livro"></li>
-          <li class="botoes__item"><img src="./assets/img/Compras.svg" alt="Adicionar no carrinho de compras"></li> 
+          <li class="botoes__item">
+            <img src="./assets/img/Favoritos.svg" alt="Favoritar livro" />
+          </li>
+          <li class="botoes__item">
+            <img
+              src="./assets/img/Compras.svg"
+              alt="Adicionar no carrinho de compras"
+            />
+          </li>
         </ul>
         <!-- 2º coluna -->
         <a href="#" class="botoes__ancora">Saiba mais</a>
@@ -407,11 +467,18 @@
 
     <section class="contato">
       <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-      <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
-      <input type="email" id="contato__email" class="contato__email" placeholder="Cadastre seu e-mail">
+      <p class="contato__texto">
+        Atualizações de e-books, novos livros, promoções e outros.
+      </p>
+      <input
+        type="email"
+        id="contato__email"
+        class="contato__email"
+        placeholder="Cadastre seu e-mail"
+      />
     </section>
 
-<hr>
+    <hr />
 
     <footer class="rodape">
       <h2 class="rodape__titulo">Grupo Alura</h2>
@@ -423,8 +490,8 @@
         slidesPerView: 3,
         spaceBetween: 10,
         pagination: {
-          el: '.swiper-pagination',
-          type: 'bullets',
+          el: ".swiper-pagination",
+          type: "bullets",
         },
       });
     </script>
